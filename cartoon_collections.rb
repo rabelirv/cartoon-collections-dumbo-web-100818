@@ -25,9 +25,9 @@ def find_the_cheese(array)
 array.each {|element| 
 if element == "cheddar"
 return element
-elsif array.include?(cheese_types)
   
 
 end
 }
+
 end
