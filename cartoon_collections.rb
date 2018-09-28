@@ -21,11 +21,11 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-array.include?(cheese_types)
+
 array.each {|element| 
 if element == "cheddar"
 return element
-elsif return 
+elsif 
   
 
 end
