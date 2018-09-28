@@ -23,8 +23,8 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
 array.each {|element| 
-if element == "cheddar"||element =="gouda"||element=="camembert"
 binding.pry
+if element == "cheddar"||element =="gouda"||element=="camembert"
 return element
 else
   return nil
