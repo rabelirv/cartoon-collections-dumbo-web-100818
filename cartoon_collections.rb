@@ -25,5 +25,4 @@ def find_the_cheese(array)
 array.include? {|element| 
 element == "cheddar"||element =="gouda"||element=="camembert"
 }
-end 
 end
