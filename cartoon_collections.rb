@@ -29,5 +29,5 @@ return element
 
 end
 }
-
+array.include?(cheese_types)
 end
