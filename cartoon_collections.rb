@@ -25,6 +25,7 @@ array.include?(cheese_types)
 array.each {|element| 
 if element == "cheddar"
 return element
+elsif return nil
   
 
 end
