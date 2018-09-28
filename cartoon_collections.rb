@@ -24,6 +24,7 @@ def find_the_cheese(array)
 
 array.each {|element| 
 if element == "cheddar"||element =="gouda"||element=="camembert"
+binding.pry
 return element
 else
   return nil
