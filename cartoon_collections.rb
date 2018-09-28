@@ -22,12 +22,8 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-array.each {|element| 
-binding.pry
-if element == "cheddar"||element =="gouda"||element=="camembert"
-return element
-else
-  return nil
-end
+array.include? {|element| 
+element == "cheddar"||element =="gouda"||element=="camembert"
 }
+end 
 end
